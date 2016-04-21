@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="335" id="KGk-i7-Jjw" customClass="WatchHomeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="319.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoulou" translatesAutoresizingMaskIntoConstraints="NO" id="Fgn-Zx-1ce">
+                        <rect key="frame" x="10" y="10" width="300" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="RE6-gn-CLi"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KrW-AL-iEu">
+                        <rect key="frame" x="10" y="220" width="300" height="89"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阳光台365" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kj8-eR-IE8">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="kIO-lG-yZf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="报名截止：2015-07-12至2015-07-31" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nw-dS-jwx">
+                                <rect key="frame" x="0.0" y="60" width="300" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="ziX-kr-Hsl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2a-go-RU5">
+                                <rect key="frame" x="190" y="16" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.25561985230000001" green="0.73624132220000005" blue="0.90587515780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7gg-3f-F6h"/>
+                                    <constraint firstAttribute="width" constant="100" id="Y0v-Ki-0o6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="报名结束">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已有27人报名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zkv-Qa-hoq">
+                                <rect key="frame" x="0.0" y="30" width="180" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="EKV-Tq-7V6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kj8-eR-IE8" secondAttribute="trailing" id="2oP-p8-MtW"/>
+                            <constraint firstItem="Zkv-Qa-hoq" firstAttribute="leading" secondItem="KrW-AL-iEu" secondAttribute="leading" id="81O-S7-HlX"/>
+                            <constraint firstItem="6nw-dS-jwx" firstAttribute="top" secondItem="Zkv-Qa-hoq" secondAttribute="bottom" constant="15" id="DEx-QA-knM"/>
+                            <constraint firstItem="6nw-dS-jwx" firstAttribute="leading" secondItem="KrW-AL-iEu" secondAttribute="leading" id="GjI-NN-zJX"/>
+                            <constraint firstItem="Zkv-Qa-hoq" firstAttribute="centerY" secondItem="b2a-go-RU5" secondAttribute="centerY" id="Oor-GZ-ieR"/>
+                            <constraint firstAttribute="trailing" secondItem="6nw-dS-jwx" secondAttribute="trailing" id="PbX-MX-ZcC"/>
+                            <constraint firstItem="kj8-eR-IE8" firstAttribute="leading" secondItem="KrW-AL-iEu" secondAttribute="leading" id="XgZ-kT-r9E"/>
+                            <constraint firstItem="kj8-eR-IE8" firstAttribute="top" secondItem="KrW-AL-iEu" secondAttribute="top" id="YPU-9z-oGd"/>
+                            <constraint firstItem="b2a-go-RU5" firstAttribute="leading" secondItem="Zkv-Qa-hoq" secondAttribute="trailing" constant="10" id="Z5d-ze-Pxb"/>
+                            <constraint firstAttribute="trailing" secondItem="b2a-go-RU5" secondAttribute="trailing" constant="10" id="ye7-ib-uKN"/>
+                            <constraint firstItem="Zkv-Qa-hoq" firstAttribute="top" secondItem="kj8-eR-IE8" secondAttribute="bottom" constant="10" id="zAV-ai-ZEl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="KrW-AL-iEu" secondAttribute="trailing" constant="10" id="3Rd-Wb-8TI"/>
+                    <constraint firstItem="KrW-AL-iEu" firstAttribute="top" secondItem="Fgn-Zx-1ce" secondAttribute="bottom" constant="10" id="9Jz-aa-Z06"/>
+                    <constraint firstItem="KrW-AL-iEu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="J67-aa-EQO"/>
+                    <constraint firstItem="Fgn-Zx-1ce" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ixV-L7-Lyx"/>
+                    <constraint firstAttribute="trailing" secondItem="Fgn-Zx-1ce" secondAttribute="trailing" constant="10" id="pqs-vA-jQP"/>
+                    <constraint firstItem="Fgn-Zx-1ce" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="qeA-aC-5pJ"/>
+                    <constraint firstAttribute="bottom" secondItem="KrW-AL-iEu" secondAttribute="bottom" constant="10" id="xIM-Ic-hqa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="203" y="350"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="shoulou" width="650" height="394"/>
+    </resources>
+</document>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTarBarViewController">
+            <connections>
+                <outlet property="tabBarView" destination="7Hh-O3-SWf" id="I9b-Zn-XkH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-O3-SWf">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eJS-4H-0C8">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        </imageView>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhI-gg-vfW">
+                            <rect key="frame" x="10" y="5" width="42" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="首页">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="click:" destination="-1" eventType="touchUpInside" id="iF0-ZC-r3c"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qI-ot-4HZ">
+                            <rect key="frame" x="62" y="5" width="41" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="新房">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="click:" destination="-1" eventType="touchUpInside" id="0ni-qz-8Je"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKw-Sd-hfo">
+                            <rect key="frame" x="113" y="5" width="42" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="二手">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="click:" destination="-1" eventType="touchUpInside" id="U85-EP-IEp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utX-Eu-REj">
+                            <rect key="frame" x="165" y="5" width="42" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="出租">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="click:" destination="-1" eventType="touchUpInside" id="JQR-m5-ORh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptY-kj-POj">
+                            <rect key="frame" x="217" y="5" width="41" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="资讯">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="click:" destination="-1" eventType="touchUpInside" id="aG3-nL-N2Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8h-js-X3k">
+                            <rect key="frame" x="268" y="5" width="42" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="更多">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="click:" destination="-1" eventType="touchUpInside" id="EqO-IN-HcG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="top" secondItem="7Hh-O3-SWf" secondAttribute="top" constant="5" id="0Wc-zg-BBg"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="height" secondItem="3qI-ot-4HZ" secondAttribute="height" id="0Zr-hI-cEu"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="centerY" secondItem="nKw-Sd-hfo" secondAttribute="centerY" id="1gu-hg-v0h"/>
+                        <constraint firstAttribute="bottom" secondItem="eJS-4H-0C8" secondAttribute="bottom" id="6u4-Gh-bzR"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="width" secondItem="utX-Eu-REj" secondAttribute="width" id="79B-eB-zoQ"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="width" secondItem="3qI-ot-4HZ" secondAttribute="width" id="8XM-9u-2Ix"/>
+                        <constraint firstItem="eJS-4H-0C8" firstAttribute="leading" secondItem="7Hh-O3-SWf" secondAttribute="leading" id="Bd0-Fe-aaS"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="centerY" secondItem="q8h-js-X3k" secondAttribute="centerY" id="Cjx-BL-w20"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="centerY" secondItem="ptY-kj-POj" secondAttribute="centerY" id="FHS-5p-Ovt"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="height" secondItem="utX-Eu-REj" secondAttribute="height" id="FNa-Uk-U1L"/>
+                        <constraint firstItem="utX-Eu-REj" firstAttribute="leading" secondItem="nKw-Sd-hfo" secondAttribute="trailing" constant="10" id="FhZ-YX-yNb"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="centerY" secondItem="utX-Eu-REj" secondAttribute="centerY" id="HDt-o1-stw"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="width" secondItem="q8h-js-X3k" secondAttribute="width" id="K9u-dn-P7B"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="height" secondItem="q8h-js-X3k" secondAttribute="height" id="Ko6-GD-Fdr"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="height" secondItem="ptY-kj-POj" secondAttribute="height" id="QPW-ch-VXU"/>
+                        <constraint firstItem="nKw-Sd-hfo" firstAttribute="leading" secondItem="3qI-ot-4HZ" secondAttribute="trailing" constant="10" id="Qzk-Lg-XTC"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="width" secondItem="nKw-Sd-hfo" secondAttribute="width" id="Ue8-OM-KgH"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="centerY" secondItem="3qI-ot-4HZ" secondAttribute="centerY" id="Yhe-pF-JSc"/>
+                        <constraint firstAttribute="trailing" secondItem="q8h-js-X3k" secondAttribute="trailing" constant="10" id="aYf-XP-a44"/>
+                        <constraint firstItem="ptY-kj-POj" firstAttribute="leading" secondItem="utX-Eu-REj" secondAttribute="trailing" constant="10" id="cCU-pf-qwg"/>
+                        <constraint firstAttribute="height" constant="49" id="d4A-d3-Wth"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="width" secondItem="ptY-kj-POj" secondAttribute="width" id="gCK-Se-zie"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="leading" secondItem="7Hh-O3-SWf" secondAttribute="leading" constant="10" id="hzl-9s-Adm"/>
+                        <constraint firstAttribute="bottom" secondItem="VhI-gg-vfW" secondAttribute="bottom" constant="5" id="ndc-k1-DZr"/>
+                        <constraint firstItem="q8h-js-X3k" firstAttribute="leading" secondItem="ptY-kj-POj" secondAttribute="trailing" constant="10" id="p3E-4w-fWh"/>
+                        <constraint firstItem="VhI-gg-vfW" firstAttribute="height" secondItem="nKw-Sd-hfo" secondAttribute="height" id="qCY-H3-3iJ"/>
+                        <constraint firstItem="3qI-ot-4HZ" firstAttribute="leading" secondItem="VhI-gg-vfW" secondAttribute="trailing" constant="10" id="rYx-et-h8N"/>
+                        <constraint firstAttribute="trailing" secondItem="eJS-4H-0C8" secondAttribute="trailing" id="tpo-Xv-CaN"/>
+                        <constraint firstItem="eJS-4H-0C8" firstAttribute="top" secondItem="7Hh-O3-SWf" secondAttribute="top" id="zFd-K0-Cwl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7Hh-O3-SWf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="P7M-Be-E41"/>
+                <constraint firstAttribute="bottom" secondItem="7Hh-O3-SWf" secondAttribute="bottom" id="eFx-wT-aEc"/>
+                <constraint firstAttribute="trailing" secondItem="7Hh-O3-SWf" secondAttribute="trailing" id="zQ7-Er-Idv"/>
+            </constraints>
+            <point key="canvasLocation" x="287" y="273"/>
+        </view>
+    </objects>
+</document>

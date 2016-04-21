@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="114" id="KGk-i7-Jjw" customClass="NewTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="113.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="262平观湖大平层9200元／平起减肥路上诶算了北方粮食贷款" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAt-vO-gn1">
+                        <rect key="frame" x="120" y="35" width="195" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="wxz-pO-wJK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.25561985231317941" green="0.73624132220583449" blue="0.90587515782828287" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5800元/m²" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3md-Fa-AGW">
+                        <rect key="frame" x="240" y="10" width="80" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="uaR-Ob-ZZe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.099948722719999994" blue="0.1040323189" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="曲江池西路与曲江池南路交汇处拐角..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46X-td-cm1">
+                        <rect key="frame" x="120" y="55" width="195" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="DUj-Uq-b8A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现房" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B70-Fq-fZ4">
+                        <rect key="frame" x="220" y="75" width="30" height="15"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Wgb-ya-6WM"/>
+                            <constraint firstAttribute="width" constant="30" id="vfh-DL-32G"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="曲江" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aL-BK-ZQP">
+                        <rect key="frame" x="120" y="75" width="30" height="15"/>
+                        <color key="backgroundColor" red="0.25561985230000001" green="0.73624132220000005" blue="0.90587515780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="BDZ-dn-dKg"/>
+                            <constraint firstAttribute="height" constant="15" id="v6g-18-u3J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="普通住宅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW3-XL-a1n">
+                        <rect key="frame" x="155" y="75" width="60" height="15"/>
+                        <color key="backgroundColor" red="1" green="0.32975738630000001" blue="0.50045717479999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="520-4d-1YJ"/>
+                            <constraint firstAttribute="height" constant="15" id="5mB-Ty-Cii"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zfang" translatesAutoresizingMaskIntoConstraints="NO" id="Z5B-MR-nsj">
+                        <rect key="frame" x="10" y="10" width="100" height="93.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="SOG-hE-olo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金地湖城大境" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxV-F4-2pO">
+                        <rect key="frame" x="120" y="10" width="115" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VoO-bP-VXn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="46X-td-cm1" firstAttribute="top" secondItem="tAt-vO-gn1" secondAttribute="bottom" constant="5" id="6SW-bA-ZED"/>
+                    <constraint firstItem="Z5B-MR-nsj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="73T-Nn-Vtz"/>
+                    <constraint firstItem="tAt-vO-gn1" firstAttribute="top" secondItem="3md-Fa-AGW" secondAttribute="bottom" constant="5" id="Bh0-fH-fXN"/>
+                    <constraint firstItem="nW3-XL-a1n" firstAttribute="top" secondItem="46X-td-cm1" secondAttribute="bottom" constant="5" id="CdS-eo-2ok"/>
+                    <constraint firstItem="46X-td-cm1" firstAttribute="leading" secondItem="Z5B-MR-nsj" secondAttribute="trailing" constant="10" id="FWV-nI-nEx"/>
+                    <constraint firstItem="Z5B-MR-nsj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="G3z-EX-7s6"/>
+                    <constraint firstAttribute="bottom" secondItem="Z5B-MR-nsj" secondAttribute="bottom" constant="10" id="Iuw-Ds-0dn"/>
+                    <constraint firstAttribute="trailing" secondItem="46X-td-cm1" secondAttribute="trailing" constant="5" id="Kyr-4q-ubz"/>
+                    <constraint firstItem="wxV-F4-2pO" firstAttribute="leading" secondItem="Z5B-MR-nsj" secondAttribute="trailing" constant="10" id="LgA-KD-9ln"/>
+                    <constraint firstAttribute="trailing" secondItem="tAt-vO-gn1" secondAttribute="trailing" constant="5" id="Qiq-we-nJc"/>
+                    <constraint firstItem="B70-Fq-fZ4" firstAttribute="leading" secondItem="nW3-XL-a1n" secondAttribute="trailing" constant="5" id="Uyy-tn-pTb"/>
+                    <constraint firstItem="tAt-vO-gn1" firstAttribute="top" secondItem="wxV-F4-2pO" secondAttribute="bottom" constant="5" id="eP0-lY-S2o"/>
+                    <constraint firstItem="wxV-F4-2pO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fpi-BG-hzM"/>
+                    <constraint firstItem="8aL-BK-ZQP" firstAttribute="top" secondItem="46X-td-cm1" secondAttribute="bottom" constant="5" id="g3V-Z8-wGY"/>
+                    <constraint firstItem="3md-Fa-AGW" firstAttribute="leading" secondItem="wxV-F4-2pO" secondAttribute="trailing" constant="5" id="lyN-nT-qZa"/>
+                    <constraint firstItem="nW3-XL-a1n" firstAttribute="leading" secondItem="8aL-BK-ZQP" secondAttribute="trailing" constant="5" id="nf2-m4-CDP"/>
+                    <constraint firstItem="3md-Fa-AGW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="obr-Lx-4Se"/>
+                    <constraint firstAttribute="trailing" secondItem="3md-Fa-AGW" secondAttribute="trailing" id="sfI-ay-Y39"/>
+                    <constraint firstItem="B70-Fq-fZ4" firstAttribute="top" secondItem="46X-td-cm1" secondAttribute="bottom" constant="5" id="vOD-22-24Q"/>
+                    <constraint firstItem="8aL-BK-ZQP" firstAttribute="leading" secondItem="Z5B-MR-nsj" secondAttribute="trailing" constant="10" id="wcW-aj-GNw"/>
+                    <constraint firstItem="tAt-vO-gn1" firstAttribute="leading" secondItem="Z5B-MR-nsj" secondAttribute="trailing" constant="10" id="xE2-pV-vn6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="193" y="269"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="zfang" width="300" height="225"/>
+    </resources>
+</document>
